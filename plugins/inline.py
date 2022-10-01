@@ -85,7 +85,7 @@ async def answer(bot, query):
                            is_personal = True,
                            cache_time=cache_time,
                            switch_pm_text=switch_pm_text,
-                           switch_pm_parameter="okay")
+                           switch_pm_parameter="okDa")
 
 
 def get_reply_markup(query):
@@ -93,7 +93,7 @@ def get_reply_markup(query):
         [
             InlineKeyboardButton('♻️ 𝗦𝗲𝗮𝗿𝗰𝗵 𝗔𝗴𝗮𝗶𝗻 ♻️', switch_inline_query_current_chat=query)
         ],[
-            InlineKeyboardButton('♥️ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ♥️', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('♥️ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ♥️', url='https://t.me/rcmovieslinks')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
