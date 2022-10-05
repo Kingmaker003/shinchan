@@ -43,7 +43,7 @@ async def start(client, message):
             InlineKeyboardButton('CONTACT ME', url='https://t.me/Kavinyt'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCNFCjZA942yUpFxJTA_B5dA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -84,10 +84,10 @@ async def start(client, message):
             InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/brokenupdates')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('CONTACT ME', url='https://t.me/AboutAadhi'),
+            InlineKeyboardButton('CONTACT ME', url='https://t.me/Kavinyt'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCNFCjZA942yUpFxJTA_B5dA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
